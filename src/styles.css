@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: url() no-repeat center center fixed;
+
+  background-image: url("https://www.elsetge.cat/myimg/f/13-136459_windows-windows-xp-background-with-taskbar.jpg");
+  background-size: 100vw 100vh;
+  overflow: hidden;
+}
+
+#panel-wrapper {
+  position: absolute;
+  background-color: #ece9d8;
+  border: 3px solid #0269fd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#panel-header {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #0269fd;
+  color: #fff;
+}
+
+#editor {
+  width: 25vw;
+  height: 50vh;
+  margin: 15px;
+}
+
+#preview {
+  width: 50vw;
+  height: 50vh;
+  overflow-y: auto;
+  margin: 20px;
+  background-color: #fff;
+  padding: 5px;
+}
